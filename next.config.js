@@ -5,6 +5,7 @@ module.exports = {
     includePaths: [path.join(__dirname, 'styles')],
   },
   output:'export',
+   trailingSlash: true, // helpful for GH Pages
   images: {
     remotePatterns: [
       {
