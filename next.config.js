@@ -1,6 +1,7 @@
 const path = require('path')
  
 module.exports = {
+   basePath: '/amandev.github.io',
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
